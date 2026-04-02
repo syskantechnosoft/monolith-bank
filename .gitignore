@@ -164,7 +164,12 @@ dist
 
 # Gatsby files
 .cache/
+.storybook-out
 public
+
+# Ensure we track Create React App's public folder (frontend/public) despite generic public ignore.
+!frontend/public/
+!frontend/public/**
 
 # Storybook build outputs
 .out
